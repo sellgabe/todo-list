@@ -17,7 +17,8 @@ input[type='submit'] {
 }
 
 body {
-  background-color: #e4e4fd;
+  background-color: #202020;
+  color: white;
 }
 
 .container {
@@ -31,7 +32,7 @@ header {
   display: inline-block;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #5e6081;
+  color: #00aaff;
   margin: 1rem auto;
   text-align: center;
   text-transform: uppercase;
@@ -46,7 +47,7 @@ header {
 }
 
 .btn-addtask {
-  background-color: #646ff0;
+  background-color: #00aaff;
   color: white;
   border: none;
   border-radius: 6px;
@@ -63,10 +64,10 @@ header {
 .btn-select {
   font-size: 1rem;
   border-radius: 6px;
-  background-color: #b7b9e0;
+  background-color: #464646;
   border: none;
-  color: #585858;
-  cursor: pointer;
+  color: #ffffff;
+  cursor: rgb(218, 218, 218) r;
   padding: 0.6rem;
   width: 180px;
   font-weight: 600;
@@ -74,7 +75,7 @@ header {
 
 /* Todos */
 .todo-container {
-  background-color: #d3d7f3;
+  background-color: #333333;
   border-radius: 12px;
   padding: 1rem;
 }
@@ -82,7 +83,7 @@ header {
 .todo-item {
   display: flex;
   justify-content: space-between;
-  background-color: #f1f1fa;
+  background-color: #191919;
   padding: 0.7em;
   margin-bottom: 1em;
   border-radius: 6px;
@@ -122,7 +123,7 @@ input[type='checkbox']:hover {
 }
 
 input[type='checkbox']:checked {
-  background-color: rgba(100, 112, 240, 1);
+  background-color: #00aaff;
 }
 
 input[type='checkbox']:checked::after {
@@ -132,7 +133,7 @@ input[type='checkbox']:checked::after {
 .todo-details-task {
   font-size: 14px;
   font-weight: 500;
-  color: #353535;
+  color: #eaeaea;
 }
 
 .task-done {
@@ -142,7 +143,7 @@ input[type='checkbox']:checked::after {
 
 .todo-details-date {
   font-size: 12px;
-  color: #666666;
+  color: #c0c0c0;
 }
 
 .todo-actions {
@@ -159,13 +160,13 @@ input[type='checkbox']:checked::after {
 .todo-actions-edit {
   cursor: pointer;
   padding: 6px 8px;
-  background-color: #dedfe1;
+  background-color: #222222;
   border-radius: 3px;
 }
 
 .todo-actions-delete:hover,
 .todo-actions-edit:hover {
-  background-color: #a5a5a5;
+  background-color: #00aaff;
 }
 
 /* Modal */
@@ -184,7 +185,7 @@ input[type='checkbox']:checked::after {
 
 .modal-container {
   top: -15%;
-  background-color: #e7e9fa;
+  background-color: #1a1a1a;
   border-radius: 8px;
   margin: 0 auto;
   max-width: 500px;
@@ -194,7 +195,7 @@ input[type='checkbox']:checked::after {
 }
 
 form h1 {
-  color: #5c5e8a;
+  color: #00aaff;
   margin-bottom: 20px;
 }
 
@@ -210,7 +211,7 @@ form select {
 }
 
 form label {
-  color: #5c5e8a;
+  color: #eaeaea;
   font-weight: 400;
 }
 
@@ -224,9 +225,9 @@ form label {
 .btn-clear {
   font-size: 1rem;
   border-radius: 6px;
-  background-color: #b7b9e0;
+  background-color: #00aaff;
   border: none;
-  color: #414141;
+  color: #ffffff;
   cursor: pointer;
   padding: 0.5rem 1.5rem;
 }

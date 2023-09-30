@@ -23,7 +23,6 @@ function App() {
     });
 
     setTodoList(filteredTodoList);
-    console.log(filteredTodoList);
   };
 
   const handleClearTasks = () => {
